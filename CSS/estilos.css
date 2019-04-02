@@ -1,0 +1,124 @@
+body{
+  font-family: dancing script;
+}
+#contenido{
+  width: 900px;
+  margin: 0 auto;
+   min-height: 96.81px;
+}
+
+header{
+  background: #5b7989;
+  border-radius: 10px 10px 0 0;
+  text-shadow: 2px 2px #02010a;
+  padding: 15px 0;
+  display: flex;
+  flex-flow: row wrap;
+  color: white;
+}
+#tituloCabecera{
+  width: 70%;
+  text-indent: 15px;
+}
+#menuCabecera{
+  padding-top:25px;
+  width: 30%;
+  font-size: 18pt;
+}
+#menuCabecera a{
+  color:white;
+}
+
+#menuCabecera .actual{
+  text-decoration: none;
+}
+#menuCabecera .paisajes{
+  text-decoration: none;
+}
+#menuCabecera .retratos{
+  text-decoration: none;
+  #contenido{
+    width: 900px;
+    margin: 0 auto;
+     min-height: 96.81px;
+  }
+ }
+#principal{
+  height: 450px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #82c3a6;
+  text-align: center;
+  box-sizing: content-box;
+  }
+.portada{
+  width: 80%;
+  border: 2px solid;
+  object-fit: cover;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+#secundario {
+  display: flex;
+  box-sizing: content-box;
+  background-color: #d5c75f;
+  height: 450px;
+}
+.imagenes2{
+  box-sizing: content-box;
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #d5c75f;
+  text-align: center;
+}
+.imagenes2 p img:hover{
+  transform: rotate(10deg);
+}
+.imagenes2 p img{
+filter: drop-shadow(2px 2px 2px #02010a);
+transition: 1s;
+}
+.imagenes2 p a {
+color: black;
+}
+.imagenes3{
+box-sizing: content-box;
+width: 50%;
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap-reverse;
+justify-content: center;
+align-items: center;
+align-content: center;
+background-color: #d5c75f;
+text-align: center;
+}
+.imagenes3 p img:hover{
+transform: translate(20px,-5px);
+}
+.imagenes3 p img{
+  filter: drop-shadow(2px 2px 2px #02010a);
+  transition: 1s;
+}
+.imagenes3 p a{
+  color: black;
+}
+#footer{
+  background-color: #c6d5c5;
+  box-sizing: content-box;
+  border-radius: 0 0 10px 10px;
+  color: black;
+  text-decoration: none;
+}
+.icono{
+  width: 8%;
+  border-radius: 50%;
+}
+table{
+  width: 100%;
+  text-align: center;
+}
