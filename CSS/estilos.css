@@ -7,15 +7,52 @@ body{
   margin: 0 auto;
    min-height: 96.81px;
 }
-
+@media all and (max-width: 900px) {
+  #contenido{
+    width:900px;
+    order: 1;
+  }
+}
+@media all and (max-width:600px) {
+  #contenido{
+    width: 100%;
+    order: 1;
+  }
+  #principal{
+    width: 100%;
+    order: 2;
+  }
+  #secundario{
+    width: 100%;
+    order: 3;
+  }
+  #footer{
+    width: 100%;
+    order: 4;
+  }
+}
 header{
   background: #5b7989;
   border-radius: 10px 10px 0 0;
   text-shadow: 2px 2px #02010a;
+  margin-top: 0%;
   padding: 15px 0;
   display: flex;
   flex-flow: row wrap;
   color: white;
+  animation-name: slidein;
+  animation-duration: 1s;
+}
+@keyframes slidein {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
 }
 #tituloCabecera{
   width: 70%;
