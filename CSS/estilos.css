@@ -1,5 +1,6 @@
 body{
   font-family: dancing script;
+  background: #02010a;
 }
 #contenido{
   width: 900px;
@@ -62,6 +63,7 @@ header{
   box-sizing: content-box;
   background-color: #d5c75f;
   height: 450px;
+  align-items: center;
 }
 .imagenes2{
   box-sizing: content-box;
@@ -74,13 +76,24 @@ header{
   align-content: center;
   background-color: #d5c75f;
   text-align: center;
+  border: 1px;
 }
 .imagenes2 p img:hover{
   transform: rotate(10deg);
 }
 .imagenes2 p img{
+  width: 100%;
 filter: drop-shadow(2px 2px 2px #02010a);
 transition: 1s;
+animation: sombra 10s infinite;
+}
+@-webkit-keyframes sombra {
+  0%{
+    filter: drop-shadow(2px 2px 2px #02010a);
+  }
+  100%{
+    filter: drop-shadow(2px 2px 2px #82c3a6);
+  }
 }
 .imagenes2 p a {
 color: black;
@@ -96,14 +109,25 @@ align-items: center;
 align-content: center;
 background-color: #d5c75f;
 text-align: center;
+border: 1px;
 }
 .imagenes3 p img:hover{
 transform: translate(20px,-5px);
 }
 .imagenes3 p img{
+  width: 100%;
   filter: drop-shadow(2px 2px 2px #02010a);
   transition: 1s;
+ animation: sombra 10s infinite;
 }
+@-webkit-keyframes sombra {
+  0%{
+    filter: drop-shadow(2px 2px 2px #02010a);
+  }
+  100%{
+    filter: drop-shadow(2px 2px 2px #82c3a6);
+  }
+  }
 .imagenes3 p a{
   color: black;
 }

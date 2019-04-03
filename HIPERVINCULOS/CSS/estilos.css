@@ -1,12 +1,12 @@
 body{
   font-family: dancing script;
+  background: #02010a;
 }
 #contenido{
   width: 900px;
   margin: 0 auto;
    min-height: 96.81px;
 }
-
 header{
   background: #5b7989;
   border-radius: 10px 10px 0 0;
@@ -39,21 +39,32 @@ header{
   text-decoration: none;
 }
 #principal {
-  box-sizing: content-box;
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
-  box-sizing: border-box;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   align-content: stretch;
   background-color: #d5c75f;
   height: 340px;
   text-align: center;
 }
-
-  img{
-    width: 70%;
-
+img{
+  width: 80%;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+  .imagen1{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+  }
+  .imagen2, .imagen4,.imagen6{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .imagen3{
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
   }
   #footer{
     background-color: #c6d5c5;
