@@ -3,9 +3,9 @@ body{
   background: #02010a;
 }
 #contenido{
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
-   min-height: 96.81px;
+  min-height: 96.81px;
 }
 header{
   background: #5b7989;
@@ -81,16 +81,17 @@ img{
     filter: sepia(90%);
   }
   #footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     background-color: #c6d5c5;
     box-sizing: content-box;
     border-radius: 0 0 10px 10px;
     color: black;
     text-decoration: none;
+    text-align: left;
   }
   .icono{
-    width: 10%;
-    border-radius: 60%;
-  }
-  table{
-    width: 100%;
+    width: 8%;
+    border-radius: 50%;
   }

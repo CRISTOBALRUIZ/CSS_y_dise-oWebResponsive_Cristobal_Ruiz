@@ -3,33 +3,9 @@ body{
   background: #02010a;
 }
 #contenido{
-  width: 900px;
+  max-width: 80%;
   margin: 0 auto;
-   min-height: 96.81px;
-}
-@media all and (max-width: 900px) {
-  #contenido{
-    width:900px;
-    order: 1;
-  }
-}
-@media all and (max-width:600px) {
-  #contenido{
-    width: 100%;
-    order: 1;
-  }
-  #principal{
-    width: 100%;
-    order: 2;
-  }
-  #secundario{
-    width: 100%;
-    order: 3;
-  }
-  #footer{
-    width: 100%;
-    order: 4;
-  }
+  min-height: 96.81px;
 }
 header{
   background: #5b7989;
@@ -82,32 +58,43 @@ header{
   }
  }
 #principal{
-  height: 450px;
+  height: 50%;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #82c3a6;
-  text-align: center;
   box-sizing: content-box;
+  }
+  .c1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
   }
 .portada{
   width: 80%;
+  max-width: 900px;
+  height: 90%;
   border: 2px solid;
-  object-fit: cover;
   filter: drop-shadow(2px 2px 2px #02010a);
 }
 #secundario {
   display: flex;
-  box-sizing: content-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
   background-color: #d5c75f;
-  height: 450px;
+  height: 40%;
   align-items: center;
 }
 .imagenes2{
-  box-sizing: content-box;
+  box-sizing: border-box;
+  padding: 5px;
   width: 50%;
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -136,17 +123,18 @@ animation: sombra 10s infinite;
 color: black;
 }
 .imagenes3{
-box-sizing: content-box;
-width: 50%;
-display: flex;
-flex-direction: row-reverse;
-flex-wrap: wrap-reverse;
-justify-content: center;
-align-items: center;
-align-content: center;
-background-color: #d5c75f;
-text-align: center;
-border: 1px;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #d5c75f;
+  text-align: center;
+  border: 1px;
 }
 .imagenes3 p img:hover{
 transform: translate(20px,-5px);
@@ -169,17 +157,20 @@ transform: translate(20px,-5px);
   color: black;
 }
 #footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
   background-color: #c6d5c5;
   box-sizing: content-box;
   border-radius: 0 0 10px 10px;
   color: black;
   text-decoration: none;
+  text-align: center;
+}
+.contacto, .Redes-Sociales, .Terminos, .Derechos{
+  width: 25%;
 }
 .icono{
   width: 8%;
   border-radius: 50%;
-}
-table{
-  width: 100%;
-  text-align: center;
 }

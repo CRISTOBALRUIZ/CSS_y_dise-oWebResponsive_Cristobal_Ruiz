@@ -1,0 +1,13 @@
+@media all and (min-width: 600px ) {
+  #contenido{
+  }
+  #secundario  .imagen1{
+    width: 100%;
+  }
+  #secundario .imagen2{
+    width: 100%;
+  }
+}
+@media all and (max-width: 900px ) {
+
+}
