@@ -1,13 +1,50 @@
-@media all and (min-width: 600px ) {
-  #contenido{
+@media (max-width:900px){
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  #secundario  .imagen1{
+  #tituloCabecera{
     width: 100%;
+    text-align: center;
   }
-  #secundario .imagen2{
+  #menuCabecera{
     width: 100%;
+    text-align: center;
   }
+#principal{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
-@media all and (max-width: 900px ) {
-
+.portada{
+  width: 90%;
+  margin: auto;
 }
+#secundario{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.imagenes2, .imagenes3{
+  width: 100%;
+  margin: auto;
+}
+}
+  @media (max-width:900px){
+    footer{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      box-sizing: content-box;
+    }
+    .foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
+      width: 10%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+    }
+    }

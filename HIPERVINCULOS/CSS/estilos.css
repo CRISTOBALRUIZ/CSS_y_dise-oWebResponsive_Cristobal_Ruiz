@@ -4,6 +4,7 @@ body{
 }
 #contenido{
   max-width: 900px;
+  width: 80%;
   margin: 0 auto;
   min-height: 96.81px;
 }
@@ -53,45 +54,56 @@ header{
   text-decoration: none;
 }
 #principal {
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #d5c75f;
+  margin-bottom: 0px;
   display: flex;
-  flex-direction: row;
+}
+.columna1, .columna2, .columna3{
+  display: flex;
   flex-flow: row wrap;
-  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: stretch;
-  background-color: #d5c75f;
-  height: 340px;
-  text-align: center;
+  width: 33.33%;
+  height: 90%;
+  box-sizing: border-box;
 }
 img{
-  width: 80%;
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
   filter: drop-shadow(2px 2px 2px #02010a);
+  width: 90%;
 }
-  .imagen1{
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
+.foto1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.foto2, .foto4, .foto6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.foto3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+footer{
+  margin-top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #c6d5c5;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
   }
-  .imagen2, .imagen4,.imagen6{
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+
+.contacto, .Redes-Sociales, .Terminos, .Derechos{
+  width: 25%;
   }
-  .imagen3{
-    -webkit-filter: sepia(90%);
-    filter: sepia(90%);
-  }
-  #footer{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color: #c6d5c5;
-    box-sizing: content-box;
-    border-radius: 0 0 10px 10px;
-    color: black;
-    text-decoration: none;
-    text-align: left;
-  }
-  .icono{
-    width: 8%;
-    border-radius: 50%;
+.icono{
+  width: 8%;
+  border-radius: 50%;
   }

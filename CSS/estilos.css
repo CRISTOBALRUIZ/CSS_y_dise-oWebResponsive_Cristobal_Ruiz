@@ -3,7 +3,9 @@ body{
   background: #02010a;
 }
 #contenido{
-  max-width: 80%;
+  width: 80%;
+  max-width: 900px;
+  min-width: 360px;
   margin: 0 auto;
   min-height: 96.81px;
 }
@@ -52,8 +54,7 @@ header{
 #menuCabecera .retratos{
   text-decoration: none;
   #contenido{
-    width: 900px;
-    margin: 0 auto;
+      margin: 0 auto;
      min-height: 96.81px;
   }
  }
@@ -63,23 +64,21 @@ header{
   padding-bottom: 10px;
   background-color: #82c3a6;
   box-sizing: content-box;
-  }
-  .c1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
   }
 .portada{
   width: 80%;
-  max-width: 900px;
   height: 90%;
   border: 2px solid;
   filter: drop-shadow(2px 2px 2px #02010a);
 }
 #secundario {
+  height: auto;
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -106,7 +105,7 @@ header{
   transform: rotate(10deg);
 }
 .imagenes2 p img{
-  width: 100%;
+width: 100%;
 filter: drop-shadow(2px 2px 2px #02010a);
 transition: 1s;
 animation: sombra 10s infinite;
@@ -156,7 +155,7 @@ transform: translate(20px,-5px);
 .imagenes3 p a{
   color: black;
 }
-#footer{
+footer{
   width: 100%;
   display: flex;
   justify-content: space-around;

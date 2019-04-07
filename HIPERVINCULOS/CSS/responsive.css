@@ -1,0 +1,38 @@
+@media (max-width:900px){
+  footer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+.contacto, .Redes-Sociales, .Terminos, .Derechos{
+  width: 100%;
+  padding-left: 5px;
+}
+}
+@media (max-width:900px){
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #tituloCabecera{
+    width: 100%;
+    text-align: center;
+  }
+  #menuCabecera{
+    width: 100%;
+    text-align: center;
+  }
+#principal{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
+  margin-left: 30px;
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  box-sizing: border-box;
+}
+}
