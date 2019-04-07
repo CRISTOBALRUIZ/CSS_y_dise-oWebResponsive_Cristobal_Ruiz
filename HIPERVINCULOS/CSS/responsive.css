@@ -25,6 +25,7 @@
   }
 #principal{
   display: flex;
+  height: 1200px;
   box-sizing: border-box;
   flex-direction: column;
 }
@@ -34,8 +35,9 @@
 .foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
   width: 90%;
   display: flex;
+  flex-grow: 33.33%;
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 }

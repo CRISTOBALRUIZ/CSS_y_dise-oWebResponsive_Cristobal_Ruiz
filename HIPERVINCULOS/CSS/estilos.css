@@ -4,6 +4,7 @@ body{
 }
 #contenido{
   max-width: 900px;
+  min-width: 320px;
   width: 80%;
   margin: 0 auto;
   min-height: 96.81px;
