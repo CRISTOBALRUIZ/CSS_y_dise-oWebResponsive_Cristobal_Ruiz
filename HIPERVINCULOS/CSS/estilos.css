@@ -71,21 +71,29 @@ header{
   box-sizing: border-box;
 }
 img{
-  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
-  filter: drop-shadow(2px 2px 2px #02010a);
   width: 90%;
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
 }
 .foto1{
   -webkit-filter: blur(10px);
   filter: blur(10px);
 }
-.foto2, .foto4, .foto6{
+.foto2{
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 .foto3{
   -webkit-filter: sepia(90%);
   filter: sepia(90%);
+}
+.foto4{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.foto6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 footer{
   margin-top: 0px;
